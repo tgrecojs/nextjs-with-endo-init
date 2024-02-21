@@ -11,10 +11,9 @@ export default function Document() {
         <Main />
         <NextScript />
         <Script
-          async
           type="module"
           src="https://esm.sh/@endo/init@1.0.2"
-          strategy="beforeInteractive"
+          strategy="afterInteractive"
         />
       </body>
     </Html>
